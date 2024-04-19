@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desplegables y Cuadros de Entrada HTML</title>
+</head>
+<body>
+  <form action="php.php" method="post">
+ 
+<h2>Seleccione una opción:</h2>
+ 
+<label for="Peso">Introduce tu peso:</label>
+    <input type="text" id="Peso" name="Peso">
+  <br><br>
+ 
+ 
+<div style="display: inline-block;">
+    <label for="Actividad">Seleccciona tu actividad Fisica:</label>
+  <select id="Actividad" name="Actividad">
+      <option value="Actividad1">Sendentario </option>
+      <option value="Actividad2">Moderado/activo</option>
+      <option value="Actividad3">Muy activo </option>
+  </select>
+<br>
+<div style="display: inline-block;">
+  <label for="Objetivo">Seleccciona tu objetivo:</label>
+  <select id="Objetivo" name="Objetivo">
+      <option value="Objetivo1">Rebajar</option>
+      <option value="Objetivo2">Mantaner</option>
+      <option value="Objetivo3">Aumentar </option>
+   </select>
+ 
+<br>
+    <div style="display: inline-block;">
+        <label for="Tipo">Seleccciona tu tipo:</label>
+    <select id="Tipo" name="Tipo">
+        <option value="Tipo1">Ectoformo</option>
+        <option value="Tipo2">Mesoformo</option>
+        <option value="Tipo3">Endoformo </option>
+    </select>
+<br>
+    <input type="submit" value="Calcular">
+</form>
+</body>
+</html>
